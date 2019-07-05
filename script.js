@@ -1,4 +1,4 @@
-YUI().use('node', 'event', function (Y) {
+async function ded(){
   const key = document.querySelector('#key');
   const points_div = document.querySelector('#points');
 
@@ -78,5 +78,5 @@ YUI().use('node', 'event', function (Y) {
     }
 
    }
-
-});
+};
+ded();
